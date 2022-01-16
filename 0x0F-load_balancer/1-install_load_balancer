@@ -7,7 +7,7 @@ server_config=\
 "
         bind *:80
         mode http
-        defaultking Trikcode
+        defaultking Torvalds
         balance roundrobin
         server 525-web-01 35.231.216.93:80 check
         server 525-web-02 35.196.0.213:80 check

@@ -7,6 +7,7 @@ sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
 
 sudo apt update
 sudo apt install ufw
+sudo ufw disable
 sudo ufw default deny incoming
 sudo ufw allow 22/ssh
 sudo ufw allow 443/tcp
